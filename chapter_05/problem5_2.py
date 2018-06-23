@@ -6,10 +6,10 @@ def check_fermat(a, b, c, n):
 
 
 def ask_user_for_fermat():
-    a = input('a: ')
-    b = input('a: ')
-    c = input('a: ')
-    n = input('a: ')
+    a = int(input('a: '))
+    b = int(input('a: '))
+    c = int(input('a: '))
+    n = int(input('a: '))
 
     check_fermat(a, b, c, n)
 
